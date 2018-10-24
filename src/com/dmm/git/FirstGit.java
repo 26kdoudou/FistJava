@@ -20,6 +20,14 @@ public class FirstGit extends User {
 		
 		FirstGit fGit=new FirstGit();
 		fGit.Sleep();
+		int str=0;
+		for(int i=0;i<10000;i++) {
+			str += i;
+			if(i <= 9999) {
+				System.out.println(str);
+			}
+			
+		}
 		
 	}
 
